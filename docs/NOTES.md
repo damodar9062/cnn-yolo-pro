@@ -1,0 +1,6 @@
+- This repository refactors and parameterizes original homework scripts to a reusable, professional toolchain:
+  - VOC→YOLO conversion with class map
+  - Keras CNN training + checkpoint evaluation (first/last)
+  - YOLOv5 training/evaluation via Python API, with JSON metrics
+  - Benchmark comparison (table)
+- See README for commands.

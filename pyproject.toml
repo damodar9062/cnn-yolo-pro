@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision_benchmark_pro"
+version = "0.1.0"
+description = "CNN vs YOLO benchmark with dataset conversion and metrics"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Dhamodar Burla", email="damodar9062@gmail.com"}]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "opencv-python>=4.8",
+  "matplotlib>=3.7",
+  "seaborn>=0.12"
+]
+[project.optional-dependencies]
+dev = ["pytest>=8","flake8","black","isort","pre-commit"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,15 @@
+# train.yaml for YOLOv5
+path: /CNN  # Base directory for data
+train: train/images  # Path to training images
+val: val/images  # Path to validation images
+test: test/images  # Path to test images
+
+nc: 31  # Number of classes (update this to match the number in class_map)
+names: [
+    'PAScarRear', 'PASmotorbikeSide', 'PAScarSide', 'PASbicycle', 'PAScar', 'PASperson', 
+    'PASpersonWalking', 'PASpersonStanding', 'PASpersonSitting', 'PAScarFrontal', 'PASstreetSign', 
+    'PASstreet', 'PASbuildingPart', 'PASbuildingWhole', 'PASbuildingRegion', 'PASstreetPart', 
+    'PAScarPart', 'PAStreePart', 'PAStreeWhole', 'PASwindow', 'PASstreetlight', 'PASsky', 
+    'PAStreeRegion', 'PASbuilding', 'PASdoor', 'PAStrafficlight', 'PAStree', 'PASposter', 
+    'PASposterClutter', 'PASskyRegion', 'PASbicycleSide'
+]
