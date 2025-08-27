@@ -1,13 +1,12 @@
 # Vision Benchmark Pro — CNN (TF/Keras) vs YOLO (Object Detection)
 
-A professionalized version of your **EAS595 HW02** project with clean packaging, parameterized scripts, CI, and docs.
+A professionalized version of a project with clean packaging, parameterized scripts, CI, and docs.
 It includes:
 - **Dataset conversion** from VOC-style text to **YOLO** format
 - **CNN training/evaluation** (TF/Keras) for 9-way classification
 - **YOLO training/evaluation** (YOLOv5-style, via Python API if available)
 - **Benchmark** script to compare metrics and timings
 
-> This repo is a production-style reframe of your homework — not coursework-looking.
 
 ## Quickstart
 ```bash
